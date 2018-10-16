@@ -1,3 +1,12 @@
-.formulario{
-	border:solid 1px #ccc;
+#formulario{
+	border:solid 3px #E12789;
+	border-radius: 5%;
+	width: 40%;
+	height: 85%;
+	padding: 10px;
+	display: block;
+	position: absolute;
+	left: 30%;
+	top: 30px;
+	background-color: #ccc;
 }
