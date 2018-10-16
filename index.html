@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Contactos</title>
 	<link rel="stylesheet" type="text/css" href="app.css">
+	<script src="app.js"></script>
 </head>
 <body>
 	<div id="formulario">
@@ -11,20 +12,20 @@
 		<form>
 	      Nombre:
 	      <br>
-	      <input type="text">
+	      <input type="text" id="nombre">
 	      <br>
 	      <br>
 	      Apellido:
 	      <br>
-	      <input type="text">
+	      <input type="text" id="apellido">
 	      <br><br>
 	       Edad:
 	      <br>
 	      <input type="number">
 	      <br>
 	      Sexo:
-	      <p> M<input type="radio" name="sexo"></p>
-	      <p> F<input type="radio" name="sexo"></p>
+	      <p> M<input type="radio" name="sexo" id="men"></p>
+	      <p> F<input type="radio" name="sexo" id="women"></p>
 		  Domicilio:
 	      <br>
 	      <input type="text">
@@ -39,7 +40,10 @@
 	      <br>
 	      <br>
 	      Telefono:
-	      <input type="tel" name="number">
+	      <input type="tel" name="number" id="cel">
+	      <br>
+	      <br>
+	      <input type="submit" value="Enviar" />
     	</form>
 	</div>
 </body>
