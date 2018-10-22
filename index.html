@@ -11,26 +11,26 @@
 		<h1 class="titulo">REGISTRO FORMULARIO</h1>
 		<form id="id_formulario" >
 	      Nombre:
-	      <input type="text" name="nombre" autofocus="">
+	      <input type="text" name="nombre" id="nomb" autofocus="">
 	      <br>
 	      <br>
 	      Apellido:
-	      <input type="text" name="apellido">
+	      <input type="text" name="apellido" id="apellidos">
 	  <br><br>
 	       Edad:
 	      <br>
-	      <input type="number" name="edad">
+	      <input type="number" name="edad" id="edades">
 	      <br>
 	      Sexo:
 	      <p> M<input type="radio" name="sexo" id="men"></p>
 	      <p> F<input type="radio" name="sexo" id="women"></p>
 		  Domicilio:
 	      <br>
-	      <input type="text">
+	      <input type="text" id="direccion">
 	      <br><br>
 	      Nacionalidad:
 	      <br>
-	      <select name="lista_de_seleccion">
+	      <select name="lista_de_seleccion" id="list-paises">
 	        <option value="opcion1">Nicaragua</option>
 	        <option value="opcion2">Costa Rica</option>
 	        <option value="opcion3">Honduras</option>
@@ -51,7 +51,7 @@
 				<tr>
 					<th>Nombre</th>
 					<th>Apellidos</th>
-					<th>Edad<</th>
+					<th>Edad</th>
 					<th>Sexo</th>
 					<th>Domicilio</th>
 					<th>Nacionalidad</th>
@@ -59,7 +59,9 @@
 					<th>Opciones</th>
 				</tr>
 			</thead>
-			<tbody></tbody>
+			<tbody id="cuerpo_tabla">
+				<!-- Se agregarán automáticamente con Js -->
+			</tbody>
 		</table>
 	</div>
 </body>
